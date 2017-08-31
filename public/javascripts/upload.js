@@ -1,5 +1,9 @@
 $('.upload-btn').on('click', function (){
     $('#upload-input').click();
+});
+
+$('#upload-input').on('click', function(){
+    this.value=null;
     $('.progress-bar').text('0%');
     $('.progress-bar').width('0%');
 });
@@ -60,4 +64,14 @@ $('#upload-input').on('change', function(){
     });
 
   }
+});
+
+
+$('#view-files').on('click', function(){
+    $.ajax({
+      url: '/viewfiles',
+      type: 'POST',
+      success: function(data){},
+      xhr: function() { return new XMLHttpRequest(); }
+    });
 });
