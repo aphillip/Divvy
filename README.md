@@ -17,7 +17,7 @@ Alternatively, download and unzip the files of this repository.
 At the command prompt, run:
 ```Bash
 	cd Divvy
-    npm install	
+	npm install	
 ```
 
 ### Sharing Files
@@ -32,18 +32,18 @@ Then navigate to [localhost:3000/info]("localhost:3000/info") in your web browse
 
 For the convenience of Windows users, double clicking "Divvy-Server.bat", and then "Divvy-Info.URL" will accomplish the same thing.
 
-<center><img src="https://github.com/aphillip/Divvy/blob/master/public/images/server-info.png?raw=true"  width="720px"></center>
+<img src="https://github.com/aphillip/Divvy/blob/master/public/images/server-info.png?raw=true"  width="720px">
 
 Use you phone's QR Code reader to scan the QR Code that appears, or navigate to the displayed URL on another device.  The image below is a mobile device.
 
-<center><img src="https://github.com/aphillip/Divvy/blob/master/public/images/mobile-client.png?raw=true"  width="320px"></center>
+<img src="https://github.com/aphillip/Divvy/blob/master/public/images/mobile-client.png?raw=true"  width="320px">
 
 
 
 ### Limitations
 * In some instances on Android, the QR Code reader on your mobile device may open the URL in a Webview instead of a browser.  If the permissions of the app are not sufficient, only uploads from locations inside the green box will work.
 
-  <center><img src="https://github.com/aphillip/Divvy/blob/master/public/images/mobile-file-locations.png?raw=true"  width="320px"></center>
+  <img src="https://github.com/aphillip/Divvy/blob/master/public/images/mobile-file-locations.png?raw=true"  width="320px">
 
 
 * iOS can only upload images and videos from the Photo app.
