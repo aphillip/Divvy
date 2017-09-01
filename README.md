@@ -21,9 +21,6 @@ At the command prompt, run:
 ```
 
 ### Sharing Files
-
-On Windows
-
 At the command prompt, run:
 ```Bash
 	node app.js
