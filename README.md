@@ -36,7 +36,6 @@ Configuration settings reside in [routes/config.js](https://github.com/aphillip/
   * ipStartsWith - If the server machine has more than one active IP address, you can specify which one to use by indicating what it should start with. If there is only one IP address, this option is be ignored.
 
 
-
 ### Limitations
 * In some instances on Android, the QR Code reader may open the URL in a Webview instead of a browser (eg. WeChat).  If the permissions of the app are not sufficient, only uploads from locations inside the green box may work.
 
@@ -46,7 +45,4 @@ Configuration settings reside in [routes/config.js](https://github.com/aphillip/
 * iOS can only upload images and videos from the Photo app.
 
 * When clicking "View Files" on Windows, the file browser may appear behind other windows.
-
-
-
 
