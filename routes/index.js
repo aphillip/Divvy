@@ -33,11 +33,18 @@ router.get('/info', function(req, res, next) {
 	var serverAddress='Unknown';
 	if(addresses.length>0)
 	{
-                for(var i=0;i<addresses.length;i++)
-                {
-                    if(addresses[i].startsWith(config.ipStartsWith))
-                        serverAddress="http://" + addresses[i] + ":" + config.port;
-                }
+		if(addresses.length==1)
+		{
+			serverAddress="http://" + addresses[0] + ":" + config.port;
+		}
+		else
+		{
+			for(var i=0;i<addresses.length;i++)
+			{
+				if(addresses[i].startsWith(config.ipStartsWith))
+					serverAddress="http://" + addresses[i] + ":" + config.port;
+			}
+		}
 	}
 	qr.toDataURL(serverAddress, { errorCorrectionLevel: 'H' }, function (err, url) {
 	  res.render('info', { serverurl: serverAddress, qrcode: url });
