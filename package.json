@@ -1,12 +1,12 @@
 {
-  "name": "file-uploader",
+  "name": "Divvy",
   "version": "1.0.0",
-  "description": "An AJAX file uploader using JS and NodeJS",
+  "description": "An AJAX file uploader and server using JS and NodeJS",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Fady Makram",
+  "author": "Andrew Phillip, forked from coligo-io/file-uploader",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.5.7",
