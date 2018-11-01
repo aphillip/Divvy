@@ -44,5 +44,7 @@ Configuration settings reside in [routes/config.js](https://github.com/aphillip/
 
 * iOS can only upload images and videos from the Photo app.
 
+* iOS uploads seem to fail if the the device goes to sleep during transfer.
+
 * When clicking "View Files" on Windows, the file browser may appear behind other windows.
 
