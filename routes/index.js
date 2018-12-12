@@ -64,7 +64,10 @@ router.post('/upload', function(req, res){
 
   // specify that we want to allow the user to upload multiple files in a single request
   form.multiples = true;
-
+  
+  //Allow for total upload size of 4GB
+  form.maxFileSize=4096*1024*1024;
+  
   // store all uploads in the /uploads directory
   form.uploadDir = uploadDir;
 
